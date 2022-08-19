@@ -1,0 +1,37 @@
+.banner {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-image:url('/images/combat_background.jpg');
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 40px;
+}
+
+
+
+.otherTitle {
+  font-weight: 200;
+  font-size: 7rem;
+  opacity: 0.5;
+}
+
+.realTitle {
+  font-weight: 300;
+  font-size: 7rem;
+}
+
+@media (max-width: 768px) {
+  .otherTitle {
+    font-size: 4rem;
+  }
+  .realTitle {
+    font-size: 4rem;
+  }
+}
+  

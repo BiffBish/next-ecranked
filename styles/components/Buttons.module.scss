@@ -1,0 +1,27 @@
+.buttonLink {
+  border-radius: var(--rounding);
+  border: 1px solid var(--border);
+
+
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  transition-duration: var(--transition-duration);
+  transition-property: background-color;
+
+  &:hover {
+    background-color: var(--border);
+  }
+
+
+}
+.primary {
+  background-color: #222
+}
+.secondary {
+    background-color: #333
+}
